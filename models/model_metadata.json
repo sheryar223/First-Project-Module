@@ -1,0 +1,31 @@
+{
+  "best_model": "XGBoost",
+  "r2_test": 0.9992838780559461,
+  "mae_test": 1.1498216800491015,
+  "rmse_test": 1.7000349521537084,
+  "r2_train": 0.9997745654281157,
+  "features": [
+    "Gender",
+    "Age",
+    "Height",
+    "Weight",
+    "Duration",
+    "Heart_Rate",
+    "Body_Temp",
+    "MET"
+  ],
+  "all_models": {
+    "Linear Regression": {
+      "r2": 0.9695190348775756,
+      "mae": 8.098784153951975
+    },
+    "Random Forest": {
+      "r2": 0.9980834806983984,
+      "mae": 1.7874067898258819
+    },
+    "XGBoost": {
+      "r2": 0.9992838780559461,
+      "mae": 1.1498216800491015
+    }
+  }
+}
